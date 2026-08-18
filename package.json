@@ -1,0 +1,20 @@
+{
+  "name": "emlak-analiz-backend",
+  "version": "0.1.0",
+  "description": "Emlak Analiz Chrome eklentisi için analiz + hesap/kota API'si",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.0",
+    "@supabase/supabase-js": "^2.45.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
